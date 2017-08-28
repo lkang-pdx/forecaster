@@ -1,6 +1,6 @@
 var Fetch = require('whatwg-fetch');
 var rootUrl = 'http://api.openweathermap.org/data/2.5/weather?q=';
-var apiUrl = '&appid=0cabdb7b6bed479814389ff95cf8acc5';
+var apiUrl = '&appid=<app-key>';
 
 module.exports = {
     get: function(place) {
